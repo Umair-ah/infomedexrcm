@@ -261,6 +261,78 @@
         </div>
       </div>
     </section>
+    <hr/>
+
+    <style>
+      .vision-mission {
+        padding: 60px 0;
+      }
+
+      .vision-mission .vision,
+      .vision-mission .mission {
+        text-align: left;
+      }
+
+      .vision-mission .vision-image,
+      .vision-mission .mission-image {
+        width: 100%;
+        max-width: 100%;
+        height: 300px; /* Fixed height for images to fit within the rectangle */
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        overflow: hidden;
+        border-radius: 8px;
+      }
+
+      .vision-mission .vision-image img,
+      .vision-mission .mission-image img {
+        width: 100%;
+        height: 100%;
+        object-fit: cover; /* Ensures the image covers the entire box without stretching */
+        border-radius: 8px;
+      }
+
+    </style>
+
+    <section class="vision-mission section">
+      <div class="container">
+        <div class="row">
+          <!-- Vision Section -->
+          <div class="col-lg-6 col-md-6 col-12 d-flex align-items-center" style="background: aliceblue">
+            <div class="vision">
+              <h2>Our Vision</h2>
+              <p>
+                To be a premier and preferred partner for providing technology-enabled quality services across the healthcare delivery spectrum.
+              </p>
+            </div>
+          </div>
+          <div class="col-lg-6 col-md-6 col-12">
+            <div class="vision-image">
+              <img src="img/Thought-Leadership.jpg" alt="Our Vision" />
+            </div>
+          </div>
+        </div>
+        <div class="row">
+          <!-- Mission Section -->
+          <div class="col-lg-6 col-md-6 col-12 d-flex align-items-center">
+            <div class="mission-image">
+              <img src="img/digital.jpg" alt="Our Mission" />
+            </div>
+          </div>
+          <div class="col-lg-6 col-md-6 col-12" style="display: grid; place-items: center; background: aliceblue;">
+            <div class="mission">
+              <h2>Our Mission</h2>
+              <p>
+                To provide comprehensive remote services with high quality, consistency, and cost-effectiveness that seamlessly integrate with our partners’ operations.
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    
+    
     <!-- End Portfolio Details Area -->
 
     <!-- Footer Area -->
