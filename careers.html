@@ -54,7 +54,7 @@
       <div class="loader">
         <div class="loader-outter"></div>
         <div class="loader-inner"></div>
-        
+
         <div class="indicator">
           <svg width="16px" height="12px">
             <polyline id="back" points="1 6 4 6 6 11 10 1 12 6 15 6"></polyline>
@@ -67,7 +67,6 @@
       </div>
     </div>
     <!-- End Preloader -->
-    
     <!-- Header Area -->
     <header class="header">
       <!-- Topbar -->
@@ -104,13 +103,13 @@
                               >Patient Access Solution</a
                             >
                           </li>
-      
+
                           <li>
                             <a href="referral_management.html"
                               >Referral Management</a
                             >
                           </li>
-      
+
                           <li>
                             <a href="denial_prevention.html"
                               >Denial Prevention and Prioritization Solution</a
@@ -220,42 +219,84 @@
       </div>
       <!-- End Topbar -->
       <!-- Header Inner -->
+     
       <!--/ End Header Inner -->
     </header>
-    <!-- End Header Area -->
 
-    <!-- Slider Area -->
-    <section class="slider">
-      <div class="hero-">
+    <!-- Breadcrumbs -->
+    <style>
+      /* General styling for the image-text section */
+      .image-text-section {
+        padding: 20px;
+      }
+
+      .image-text-wrapper {
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        justify-content: space-between;
+        gap: 20px;
+      }
+
+      .image-container {
+        flex: 1;
+      }
+
+      .text-overlay {
+        flex: 1;
+        padding: 20px;
+      }
+
+      .responsive-image {
+        width: 100%;
+        height: auto;
+        object-fit: cover; /* Ensures the image covers the container */
+      }
+
+      .benefits {
+        margin-top: 20px;
+        font-size: large;
+        line-height: 1.7;
+      }
+
+      .benefits span {
+        display: block;
+        margin-bottom: 10px;
+      }
+
+      /* Mobile responsiveness */
+      @media (max-width: 768px) {
+        .image-text-wrapper {
+          flex-direction: column;
+        }
+      }
+
+    </style>
    
-        <!-- Start Single Slider -->
-        <div
-          class="single-slider"
-          style="background-image: url('img/slider.jpg')"
-        >
-          <div class="container">
-            <div class="row">
-              <div class="col-lg-7">
-                <div class="">
-                  <h1 style="margin-top: 55px;">
-                    <span>INFOMEDEX RCM INC.</span> reinvigorates the connection between clinicians and patients while fostering the growth of healthcare organizations
-                  </h1>
-                    <h2 style="margin-top: 55px;">How We Help</h2>
-                    <img src="img/section-img.png" alt="#" />
-                    <p style="margin: 0px;">
-                      We shoulder the responsibilities of healthcare, encompassing administrative, clinical, and operational burdens, allowing clinicians to concentrate on their core mission: delivering exceptional care. Through the fusion of pragmatic technology and devoted experts, our solutions empower enterprises to become more resilient financially. By restoring joy and purpose to medicine, we're generating transformative value in healthcare and empowering clinicians to foster healthier communities.
-                    </p>
-            
-                </div>
-              </div>
+    <!-- Image and Text Section -->
+    <section class="image-text-section">
+      <div class="container">
+        <div class="image-text-wrapper">
+          <div class="image-container">
+            <img src="img/signup-bg.jpg" alt="Descriptive Alt Text" class="responsive-image" />
+          </div>
+          <div class="text-overlay">
+            <h2>Why Work With Us?</h2>
+            <p>At Infomedex, we’re on a mission to drive innovation in the healthcare industry. Not only at an organization level but also at an individual level. Working at Infomedex will give you the opportunity to share, hone, and add to your skillset each and every day.</p>
+            <div class="benefits">
+              <span>-> Competitive salaries</span>
+              <span>-> Health benefits</span>
+              <span>-> Team Work</span>
+              <span>-> Great people and energy</span>
             </div>
           </div>
         </div>
-        <!-- Start End Slider -->
-   
       </div>
     </section>
-    <!--/ End Slider Area -->
+
+<!-- End Image and Text Section -->
+
+    <!-- End Breadcrumbs -->
 
 
 

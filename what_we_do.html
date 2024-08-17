@@ -77,7 +77,7 @@
               <div class="col-lg-3 col-md-3 col-12">
                 <!-- Start Logo -->
                 <div class="logo">
-                  <a href="index.html"><img src="img/infomedex.png" alt="#" style="height:100px;" /></a>
+                  <a href="index.html"><img src="img/infomedex.png" alt="#" style="height:60px;" /></a>
                 </div>
                 <!-- End Logo -->
                 <!-- Mobile Nav -->
@@ -194,6 +194,7 @@
                 <li><a href="index.html">Home</a></li>
 <li><a href="about.html">About</a></li>
 <li><a href="what_we_do.html">What We Do?</a></li>
+<li><a href="careers.html">Careers</a></li>
 <li><a href="team.html">Team</a></li>
                 
                 
@@ -221,44 +222,248 @@
      
       <!--/ End Header Inner -->
     </header>
-    <!-- End Header Area -->
-    <!-- Breadcrumbs -->
-    <div class="breadcrumbs overlay">
-      <div class="container">
-        <div class="bread-inner">
-          <div class="row">
-            <div class="col-12">
-              <h2 style="text-align: left;color: #fcfcfc;text-shadow: 1px 1px 1px #e1e1e1; margin-bottom:9px;">What We Do?</h2>
-              <h4 style="text-align: left;color: #fcfcfc;text-shadow: 1px 1px 1px #e1e1e1; margin-bottom:9px; text-decoration: underline;">Services Provision to the Physician:</h4>
-              <h5 style="text-align: left;color: #fcfcfc;text-shadow: 1px 1px 1px #e1e1e1;">
-                The physician will promptly receive the services outlined below as part of the billing team's responsibilities
-              </h5>
-              <br/>
-              <h6 style="text-align: left;color: #fcfcfc;text-shadow: 1px 1px 1px #e1e1e1; font-family: monospace;">
-                - Patient demographic entry <br/><br/>
-                - Charges entry <br/><br/>
-                - Medical coding  <br/><br/>
-                - Billing and claims submission <br/><br/>
-                - Payment posting  <br/><br/>
-                - Denial Management <br/><br/>
-                - Follow-up on unpaid claims <br/><br/>
-                - Credit balance report- CBR  (Patient and Insurance) <br/><br/>
-                - Patient invoicing and collections <br/><br/>
-                - Monthly reporting of billing activities <br/><br/>
-                - Medical billing  <br/><br/>
-                - Dental billing <br/><br/>
-              </h6>
-             
-            </div>
+    <style>
+      /* Specialties Section */
+      .specialties-section {
+        padding: 60px 0;
+        background-color: #f9f9f9;
+      }
+
+      .specialties-wrapper {
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        justify-content: space-between;
+        gap: 20px;
+      }
+
+      .text-content {
+        flex: 1;
+        padding: 20px;
+        max-width: 600px; /* Adjust as needed */
+      }
+
+      .text-content h2 {
+        font-size: 2rem;
+        margin-bottom: 20px;
+        color: #333;
+      }
+
+      .text-content p {
+        font-size: 1rem;
+        margin-bottom: 20px;
+        color: #666;
+      }
+
+      .specialties-list {
+        list-style: none;
+        padding: 0;
+        margin: 0;
+      }
+
+      .specialties-list li {
+        font-size: 1rem;
+        color: #444;
+        margin-bottom: 10px;
+      }
+
+      .image-content {
+        flex: 1;
+        display: flex;
+        justify-content: center;
+      }
+
+      .specialties-image {
+        width: 100%;
+        height: auto;
+        object-fit: cover;
+        border-radius: 8px; /* Optional: Add border radius for rounded corners */
+      }
+
+      /* Mobile responsiveness */
+      @media (max-width: 768px) {
+        .specialties-wrapper {
+          flex-direction: column;
+        }
+
+        .text-content, .image-content {
+          max-width: 100%;
+        }
+      }
+
+    </style>
+    <!-- Specialties Section -->
+     <style>
+      /* Specialties Section */
+/* Specialties Section */
+.specialties-section {
+  position: relative;
+  padding: 60px 0;
+  background-color: #f9f9f9;
+  overflow: hidden; /* Ensures content doesn't overflow */
+}
+
+.specialties-background {
+  position: relative;
+  z-index: 1;
+}
+
+.specialties-wrapper {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+  justify-content: center;
+  position: relative;
+  z-index: 2;
+}
+
+.specialties-column {
+  flex: 1;
+  min-width: 280px; /* Adjust as needed */
+  background: rgba(255, 255, 255, 0.8); /* Optional: semi-transparent background for readability */
+  padding: 20px;
+  border-radius: 8px;
+}
+
+.specialties-column h3 {
+  font-size: 1.5rem;
+  margin-bottom: 15px;
+  color: #333;
+}
+
+.specialties-list {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.specialties-list li {
+  font-size: 1rem;
+  color: #444;
+  margin-bottom: 10px;
+}
+
+/* Background Image Styling */
+.specialties-section::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: url('img/about-img.jpg') no-repeat center center;
+  background-size: cover;
+  opacity: 0.2; /* Adjust opacity as needed for readability */
+  z-index: 0;
+}
+
+/* Mobile responsiveness */
+@media (max-width: 768px) {
+  .specialties-wrapper {
+    flex-direction: column;
+  }
+
+  .specialties-column {
+    max-width: 100%;
+  }
+}
+
+
+     </style>
+    <section class="specialties-section" style="display: grid; place-items: center;">
+      <h2 style="padding-bottom: 20px;"> Entities and Specialities we serve:</h2>
+      <div class="specialties-background">
+        <div class="specialties-wrapper">
+          <div class="specialties-column">
+            <ul class="specialties-list">
+              <li>Large Physician Groups</li>
+              <li>Ambulatory Surgical Centre</li>
+              <li>ACOS</li>
+              <li>Urgent Care Centres</li>
+              <li>Hospital Outpatient</li>
+              <li>Inpatient Services</li>
+              <li>Emergency Services</li>
+              <li>Cardiology</li>
+              <li>Gastroenterology</li>
+              <li>Psychiatry</li>
+            </ul>
+          </div>
+          <div class="specialties-column">
+            <ul class="specialties-list">
+              <li>Dermatology</li>
+              <li>Nuclear Medicine</li>
+              <li>Pathology</li>
+              <li>Orthopedics</li>
+              <li>Endocrinology</li>
+              <li>Ophthalmology</li>
+              <li>Internal Medicine</li>
+              <li>Prosthodontics</li>
+              <li>General Dentistry</li>
+              <li>Vascular Surgery</li>
+            </ul>
+          </div>
+          <div class="specialties-column">
+            <ul class="specialties-list">
+              <li>Dental</li>
+              <li>OB & Gynaecology</li>
+              <li>Podiatry</li>
+              <li>Dialysis Centres</li>
+              <li>Pain Management</li>
+              <li>Pediatrics</li>
+              <li>Oncology</li>
+              <li>Radiology Services</li>
+              <li>Family Practice</li>
+              <li>Rheumatology</li>
+            </ul>
           </div>
         </div>
       </div>
-    </div>
-    <!-- End Breadcrumbs -->
+    </section>
 
 
 
     <!-- Footer Area -->
+     <style>
+      /* Contact Info Section */
+      .contact-info {
+        margin-top: 20px;
+      }
+
+      .contact-info h2 {
+        font-size: 1.5rem;
+        margin-bottom: 10px;
+        color: #333;
+      }
+
+      .contact-info .address {
+        font-size: 1rem;
+        color: #666;
+        margin-bottom: 20px;
+      }
+
+      .map-embed {
+        margin-top: 20px;
+      }
+
+      .map-embed h3 {
+        font-size: 1.2rem;
+        margin-bottom: 10px;
+        color: #333;
+      }
+
+      .map-embed iframe {
+        border: 0;
+        border-radius: 8px; /* Optional: Add border radius for rounded corners */
+      }
+
+      /* Responsive Design for Map */
+      @media (max-width: 768px) {
+        .map-embed iframe {
+          height: 150px; /* Adjust height for smaller screens */
+        }
+      }
+
+     </style>
     <footer id="footer" class="footer">
       <!-- Footer Top -->
       <div class="footer-top">
@@ -268,16 +473,36 @@
               <div class="single-footer">
                 <h2>About Us</h2>
                 <p>
-                  We at INFOMEDEX RCM, have been focused on helping Provider Enterprises deliver better, safer and more efficient care at scale.
+                  We at INFOMEDEX RCM, have been focused on helping Provider Enterprises deliver better, safer, and more efficient care at scale.
                 </p>
-               
               </div>
             </div>
-
+    
+            <div class="col-lg-3 col-md-6 col-12">
+              <!-- Office Address -->
+              <div class="contact-info">
+                <h2 style="color: aliceblue">Address:</h2>
+                <p class="address" style="color: aliceblue">32-48 84th St Fl 2, East Elmhurst, NY 11370, USA</p>
+                <div class="map-embed">
+                
+                  <iframe
+                    src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3023.791927357851!2d-73.8839857!3d40.7564801!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x89c25fa1456ac5d7%3A0x9a63c34d4a299577!2s32-48%2084th%20St%20Fl%202%2C%20East%20Elmhurst%2C%20NY%2011370%2C%20USA!5e0!3m2!1sen!2sin!4v1608309397477!5m2!1sen!2sin"
+                    width="100%"
+                    height="200"
+                    style="border:0;"
+                    allowfullscreen=""
+                    loading="lazy"
+                  ></iframe>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
       </div>
       <!--/ End Footer Top -->
-
     </footer>
+    
+    
     <!--/ End Footer Area -->
 
     <!-- jquery Min JS -->
